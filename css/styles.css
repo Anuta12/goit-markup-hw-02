@@ -1,6 +1,24 @@
 .hero-btn {
-  background-color: 2196F3;
+  background-color: #2196f3;
   border: none;
   border-radius: 4px;
   padding: 10px 32px;
+}
+
+.hero-btn:hover {
+  background-color: 188CE8;
+  border-radius: none;
+}
+
+.hero-btn:focus {
+  background-color: #2196f3;
+}
+
+.hero-title:hover {
+  color: FFFFFF;
+  font-size: 44px;
+}
+
+.navigation-link:active {
+  color: ;
 }
