@@ -6,12 +6,12 @@
 }
 
 .hero-btn:hover {
-  background-color: 188CE8;
+  background-color: #188ce8;
   border-radius: none;
 }
 
 .hero-btn:focus {
-  background-color: #2196f3;
+  background-color: #188ce8;
 }
 
 .hero-title:hover {
@@ -21,4 +21,36 @@
 
 .navigation-link:active {
   color: ;
+}
+
+:root {
+  --main-font: "Raleway", "Roboto", sans-serif;
+  --primary-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-color: #2f303a;
+  --background-color: #f5f4fa;
+  --common-white: #e5e5e5;
+  --text-size: 14px;
+}
+.header {
+  width: 1600px;
+  height: 80px;
+  margin: ;
+  padding: ;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+}
+
+.logo {
+  margin-right: 93px;
+  font-weight: 700px;
+}
+
+.logo-web {
+  color: var(--secondary-color);
 }
