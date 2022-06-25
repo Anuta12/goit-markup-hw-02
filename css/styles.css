@@ -1,5 +1,6 @@
 :root {
-  --main-font: "Raleway", "Roboto", sans-serif;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
   --primary-color: #212121;
   --accent-color: #2196f3;
   --secondary-color: #2f303a;
@@ -13,19 +14,51 @@
   height: 80px;
   margin: 0 auto;
   padding: 0 auto;
+  font-family: var(--main-font);
+  font-style: normal;
   background-color: #ffffff;
   display: flex;
-  align-items: center;
   border: none;
+  color: var(--primary-color);
+}
+
+.logo {
+  margin-right: 93px;
+  font-weight: 700px;
+  color: #000000;
+  font-size: var(--logo-size);
+}
+
+.logo-web {
+  color: var(--accent-color);
+  font-size: var(--logo-size);
+}
+
+.navigation-list {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.navigation-item-studia {
+  color: var(--accent-color);
+}
+
+.body {
+  font-family: var(--main-font);
 }
 
 .hero-btn {
   background-color: var(--accent-color);
+  color: #ffffff;
   border: none;
   border-radius: 4px;
   padding: 10px 32px;
   font-family: "Roboto";
   font-size: 16px;
+
+  cursor: pointer;
 }
 
 .hero-btn:hover {
@@ -42,8 +75,16 @@
   font-size: 44px;
 }
 
+.link {
+  text-decoration: none;
+  font-family: inherit;
+}
 .navigation-link:active {
   color: var(--secondary-color);
+}
+
+.list {
+  list-style: none;
 }
 
 .navigation-list {
@@ -51,15 +92,13 @@
   list-style: none;
 }
 
-.logo {
-  margin-right: 93px;
-  font-weight: 700px;
+/* Main */
+
+.feature {
+  font-family: var(--text-size);
+  weight: 400px;
 }
 
-.logo-web {
-  color: var(--secondary-color);
-}
-
-link {
-  list-style: none;
+.feature-title {
+  font-family: var(--secondary-font);
 }
