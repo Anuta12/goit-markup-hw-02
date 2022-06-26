@@ -10,10 +10,6 @@
   --logo-size: 26px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .list {
   list-style: none;
   display: flex;
@@ -80,6 +76,9 @@
 .body {
   font-family: var(--main-font);
   background-color: var(--background-color);
+  font-size: var(--text-size);
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
 }
 
 .hero {
